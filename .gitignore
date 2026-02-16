@@ -4,6 +4,8 @@ out/
 !**/src/test/**/out/
 .kotlin
 
+.idea
+
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -12,6 +14,7 @@ out/
 .settings
 .springBeans
 .sts4-cache
+*.iml
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
@@ -28,3 +31,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+.env
